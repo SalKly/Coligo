@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Coligo/static/css/main.58181148.css",
+    "main.js": "/Coligo/static/js/main.2bab9bb3.js",
+    "index.html": "/Coligo/index.html",
+    "main.58181148.css.map": "/Coligo/static/css/main.58181148.css.map",
+    "main.2bab9bb3.js.map": "/Coligo/static/js/main.2bab9bb3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58181148.css",
+    "static/js/main.2bab9bb3.js"
+  ]
+}
