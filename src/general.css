@@ -1,0 +1,185 @@
+/* 
+---trpography system
+
+--font weight:
+default :400
+medium:500
+semi-bold:600
+Bold:700
+
+--line height:
+default:1
+small:1.05
+medium:1.2
+pDef:1.6
+ 
+--FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+
+
+
+
+--02 colors 
+Primary:#1c7ed6
+Tint: #e7f5ff,#2c3e50
+#(gridiant color with primary)
+Shades:#1971c2
+#
+#
+Accents:
+Greys: 
+#777;
+#555 
+#333
+
+
+--source of images
+
+
+--
+--05 shadows(stay consistant)
+
+--06 border radius
+
+--07 Whitespace
+-SPACING SYSTEM (px) 
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #333;
+  width: 100%;
+}
+html {
+  font-size: 62.5%;
+}
+
+.Main-header {
+  font-size: 4.4rem;
+  font-weight: 700;
+}
+
+.Secondary-header {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.Container {
+  width: 120rem;
+  margin: 0 auto;
+}
+.grid {
+  display: grid;
+  gap: 2.4rem;
+}
+.grid-2cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-3cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid-4cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+.flex {
+  display: felx;
+}
+.margin-right-S {
+  margin-right: 2.4rem;
+}
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  font-size: 1.6rem;
+  color: #555;
+  padding: 1.6rem 3.2rem;
+  border-radius: 100px;
+  text-decoration: none;
+  transition: all 0.3s;
+  font-weight: 600;
+}
+.btn-S:link,
+.btn-S:visited {
+  display: inline-block;
+  font-size: 1.4rem;
+  color: #555;
+  padding: 1.2rem 2.4rem;
+  border-radius: 100px;
+  text-decoration: none;
+  transition: all 0.3s;
+  font-weight: 600;
+}
+
+.btn-full:link,
+.btn-full:visited {
+  background-color: #1c7ed6;
+  color: white;
+}
+
+.btn-full:hover,
+.btn-full:active {
+  background-color: #1971c2;
+  color: #fff;
+}
+.btn-outline:link,
+.btn-outline:visited {
+  color: #1c7ed6;
+  box-shadow: inset 0 0 0 3px #1c7ed6;
+}
+.btn-outline:hover,
+.btn-outline:active {
+  background-color: #1c7ed6;
+
+  color: #fff;
+}
+.Button {
+  cursor: pointer;
+  border: none;
+  background-color: #1c7ed6;
+  color: white;
+  display: inline-block;
+  font-size: 1.6rem;
+  padding: 1.6rem 3.2rem;
+  border-radius: 100px;
+  text-decoration: none;
+  transition: all 0.3s;
+  font-weight: 600;
+}
+.Button-S {
+  cursor: pointer;
+
+  border: none;
+
+  background-color: #1c7ed6;
+  color: white;
+  display: inline-block;
+  font-size: 1.4rem;
+  padding: 1.2rem 2.4rem;
+  border-radius: 100px;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.Button:hover {
+  background-color: #1971c2;
+  color: #fff;
+}
+.Button-S:hover {
+  background-color: #1971c2;
+  color: #fff;
+}
+
+.Home-Link {
+  color: inherit !important;
+  text-decoration: inherit !important;
+  font-size: inherit !important;
+  display: inherit;
+}
