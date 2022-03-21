@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Coligo/static/css/main.4546b6c0.css",
+    "main.css": "/Coligo/static/css/main.7f5647e2.css",
     "main.js": "/Coligo/static/js/main.f651c571.js",
     "index.html": "/Coligo/index.html",
-    "main.4546b6c0.css.map": "/Coligo/static/css/main.4546b6c0.css.map",
+    "main.7f5647e2.css.map": "/Coligo/static/css/main.7f5647e2.css.map",
     "main.f651c571.js.map": "/Coligo/static/js/main.f651c571.js.map"
   },
   "entrypoints": [
-    "static/css/main.4546b6c0.css",
+    "static/css/main.7f5647e2.css",
     "static/js/main.f651c571.js"
   ]
 }
